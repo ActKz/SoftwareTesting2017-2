@@ -14,18 +14,17 @@ from Triangle import triangle
 def test_c0( a, b, c, expected):
     assert triangle( a, b, c) == expected
 
-#@pytest.mark.parametrize("a, b, c, expected",[
+@pytest.mark.parametrize("a, b, c, expected",[
+    ])
+def test_c1( a, b, c, expected):
+    assert triangle( a, b, c) == expected
 
-#    ])
-#def test_c1( a, b, c, expected):
-#    assert triangle( a, b, c) == expected
+@pytest.mark.parametrize("a, b, c, expected",[
+    ])
+def test_c2( a, b, c, expected):
+    assert triangle( a, b, c) == expected
 
-#@pytest.mark.parametrize("a, b, c, expected",[
-#    ])
-#def test_c2( a, b, c, expected):
-#    assert triangle( a, b, c) == expected
-
-#@pytest.mark.parametrize("a, b, c, expected",[
-#    ])
-#def test_mcdc( a, b, c, expected):
-#    assert triangle( a, b, c) == expected
+@pytest.mark.parametrize("a, b, c, expected",[
+    ])
+def test_mcdc( a, b, c, expected):
+    assert triangle( a, b, c) == expected
