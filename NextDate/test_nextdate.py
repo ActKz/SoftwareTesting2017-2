@@ -3,7 +3,7 @@ from NextDate import nextdate
 
 
 @pytest.mark.parametrize("year, month, day, expected",[
-        ( 1989, 6, 15, "Out of range value"),
+        ( 1899, 6, 15, "Out of range value"),
         ( 2026, 6, 15, "Out of range value"),
         ( 1900, 0, 15, "Out of range value"),
         ( 1900, 13, 15, "Out of range value"),
